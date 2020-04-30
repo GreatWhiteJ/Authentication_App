@@ -9,7 +9,7 @@ import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import Drawer from "@material-ui/core/Drawer";
 import { Link, Route } from "react-router-dom";
-import { auth } from "./firebase";
+import { auth } from "../firebase";
 
 export function SignIn(props) {
   const [email, setEmail] = useState("");
